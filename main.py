@@ -3,7 +3,7 @@ import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
 
-video_path = "video_2026-01-30_15-44-01.mp4" 
+video_path = "video_2026-01-30_15-48-17.mp4" 
 
 try:
     print("오디오 추출 중...")
