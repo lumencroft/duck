@@ -1,43 +1,67 @@
 # 🦆 Bio-Acoustic Analysis of Duck Head Posture During Rainfall
-(강우 시 오리의 두부 자세에 따른 생체 음향학적 분석)
+(강우 시 오리의 두부 자세에 따른 생체 음향학적 분석 및 생존 전략)
 
 ## 1. Abstract (초록)
 비 오는 날 오리들이 하늘을 향해 고개를 드는 행동(Sky-gazing behavior)에 대한 새로운 가설을 검증한다.
-기존 학설은 빗물 섭취나 깃털 관리를 이유로 들었으나, 본 연구는 **"빗방울 충돌 소음 감소(Rain Impact Noise Reduction)"**가 주된 원인일 것이라는 가설을 제시한다.
-오리 부리 모형과 스마트폰 가속도 센서/마이크를 이용한 시뮬레이션을 통해, 입사각(Angle of Incidence)에 따른 충격 소음 및 진동의 감쇠 효과를 정량적으로 분석하였다.
+기존 학설들은 빗물 섭취나 깃털 관리를 이유로 들었으나, 본 연구는 이 행동이 **"빗방울 충돌 소음 감소(Rain Impact Noise Reduction)"**와 **"포식자 감지(Predator Detection)"**를 동시에 만족시키기 위한 최적의 생존 전략임을 제안한다.
+자체 제작한 부리 모형과 오디오 스펙트럼 분석을 통해, 입사각(Angle of Incidence) 변화가 두개골로 전달되는 충격 진동을 획기적으로 줄여줌을 정량적으로 입증하였다.
 
 ## 2. Hypothesis (가설)
-> **"오리는 빗방울이 부리에 수직으로 충돌할 때 발생하는 두개골 진동 소음을 피하기 위해, 고개 각도를 조절하여 충격량을 분산시킨다."**
-
-- **Case A (0° / 평면):** 빗방울이 수직으로 충돌 → 최대 소음 및 진동 발생.
-- **Case B (45°):** 입사각 발생 → 충격량 분산 및 소음 감소 예상.
-- **Case C (75°):** 가파른 경사 → 빗물이 표면을 타고 흐름(Laminar flow) → 소음 최소화 예상.
+> **"오리는 빗방울이 부리에 수직으로 충돌할 때 발생하는 강력한 골전도 소음(Bone-conducted noise)을 피하고, 청각적 경계 태세(Auditory Vigilance)를 유지하기 위해 고개 각도를 조절한다."**
 
 ## 3. Methodology (실험 방법)
-본 실험은 '최소한의 장비로 최대의 물리적 통찰'을 얻기 위해 통제된 환경(aka 화장실)에서 수행되었다.
+본 연구는 통제된 인공 강우 환경에서 수행되었다.
 
 - **Environment:** Indoor Wet Lab (Bathroom)
 - **Equipment:**
-    - **Phantom Model:** Curved Hard Plastic (Simulating Duck Bill's Young's Modulus)
+    - **Phantom Model:** Curved Hard Plastic (Simulating Duck Bills acoustic impedance)
     - **Sensor:** Smartphone with `Phyphox` / `Audio Spectrum Analyzer`
-    - **Source:** Artificial Rain Shower (Constant Hydrostatic Pressure)
+    - **Source:** Artificial Rain Shower
 - **Procedure:**
     1. 센서를 부착한 모형을 바닥에 고정.
-    2. 인공 강우(샤워기)를 가동.
-    3. 모형의 각도를 **0°(Horizontal), 45°, 75°**로 변경하며 진동/소음 파형(Amplitude) 측정.
+    2. 인공 강우(샤워기) 가동 후, 모형의 각도를 **0°(Horizontal), 45°, 75°**로 변경.
+    3. 각 각도별 충격 소음의 파형(Waveform) 및 RMS 에너지 측정.
 
 ## 4. Results (실험 결과)
 
 ### 📊 Figure 1. Control Group (0° - Flat)
-> **Observation:** 수직 충돌로 인한 강한 피크(Peak) 파형 관측. 두개골에 직접적인 타격음 발생 확인.
+> **Observation:** 수직 충돌로 인한 High-Amplitude 피크 발생. (소음 극대화)
 ### 📊 Figure 2. Experimental Group A (approx. 45°)
-> **Observation:** 빗방울이 빗겨 맞으며 파형의 진폭(Amplitude)이 유의미하게 감소함.
+> **Observation:** 빗방울이 빗겨 맞으며 파형의 진폭이 유의미하게 감소.
 ### 📊 Figure 3. Experimental Group B (approx. 75°)
-> **Observation:** 빗물이 표면을 타고 흘러내리며 충격 소음이 최소화됨(Noise Floor에 근접).
-## 5. Conclusion (결론)
-실험 결과, 부리의 각도가 수직에 가까워질수록(75°), 빗방울 충돌로 인한 진동과 소음이 기하급수적으로 감소함을 확인하였다.
-이는 오리가 비 오는 날 하늘을 응시하는 행동이 단순한 멍때리기가 아니라, **'빗소리 스트레스로부터 청각과 뇌를 보호하기 위한 진화적 행동 전략'**임을 강력하게 시사한다.
+> **Observation:** 빗물이 표면을 타고 흐름(Laminar flow). 충격 소음이 배경 소음(Noise Floor) 수준으로 억제됨.
+## 5. Discussion (고찰) - Why Sky-gazing?
+
+본 실험 결과는 오리의 행동에 대해 다음과 같은 진화론적 설명을 가능하게 한다.
+
+### 5.1. The Bone Conduction Problem (골전도 문제)
+오리의 부리는 두개골과 단단히 연결되어 있어, 빗방울이 수직으로 타격할 경우 그 진동이 뼈를 타고 내이(Inner ear)로 직접 전달된다(Bone Conduction). 이는 마치 양동이를 쓰고 두들기는 것과 같은 내부 공명(Resonance)을 일으켜 극심한 스트레스를 유발한다. 고개를 들어 입사각을 비스듬하게 만드는 것은 이러한 **직접 타격(Direct Impact)**을 피하는 가장 효과적인 물리적 해법이다.
+
+### 5.2. Signal-to-Noise Ratio (SNR) for Survival (생존을 위한 신호 대 잡음비)
+단순히 소음을 피하려면 고개를 숙이면(Head-down) 된다. 그러나 이는 시야를 차단하여 포식자에 대한 시각적 경계를 불가능하게 한다.
+반면, 하늘을 보는 자세는 **1 360도 시야를 확보**하면서도, **2 빗소리 잡음(Noise)을 최소화**하여 다가오는 포식자의 미세한 소리(Signal)를 감지할 수 있게 한다.
+즉, 이 행동은 악천후 속에서도 **SNR(Signal-to-Noise Ratio)을 최대화**하여 생존 확률을 높이려는 **'적극적 방어 기제'**이다.
+
+## 6. Conclusion (결론)
+오리가 비 오는 날 하늘을 보는 것은 단순한 멍때리기가 아니다. 그것은 물리학(입사각 조절)과 생물학(청각 보호 및 경계)이 결합된, 수만 년에 걸쳐 최적화된 고도의 생존 전략이다.
+
+## 7. Limitations (한계점 및 제언)
+
+본 실험은 '최소한의 장비로 수행된 예비 연구(Pilot Study)'로서 다음과 같은 명확한 물리적/생물학적 한계를 가진다.
+
+### 7.1. Indirect Measurement (간접 측정의 한계)
+- 본 실험은 스마트폰 마이크/가속도계를 이용해 **표면 진동(Surface Vibration)**과 **공기 전파음(Airborne Sound)**을 측정하였다.
+- 그러나 실제 오리가 겪는 고통의 핵심인 **'두개골을 통해 내이(Inner Ear)로 전달되는 골전도(Bone Conduction)'** 값을 직접 측정한 것은 아니다.
+- 실제 생체 조직(뼈, 연골, 뇌수)의 댐핑(Damping) 효과나 공명 주파수(Resonant Frequency)가 고려되지 않았으므로, 그래프의 수치가 오리가 느끼는 감각(Sensation)과 1:1로 대응된다고 단정할 수 없다.
+
+### 7.2. Phantom Validity (모형의 한계)
+- 사용된 플라스틱 모형은 실제 오리 부리의 **'영률(Youngs Modulus)'**과 **'밀도'**를 완벽하게 모사하지 못했다. 실제 부리는 케라틴 층과 내부 조직으로 이루어져 있어 충격 흡수 양상이 다를 수 있다.
+
+### 6.3. Significance (그럼에도 불구하고)
+- 이러한 한계에도 불구하고, 본 실험은 입사각 변화에 따른 **'충격 에너지의 물리적 감소 경향성(Trend of Impact Energy Reduction)'**을 명확히 시각화하였다.
+- 입력되는 충격량(Input Impulse) 자체가 줄어든다면, 결과적으로 전달되는 골전도(Transmitted Vibration) 또한 감소할 것이라는 물리적 추론은 타당하다.
+- 따라서 본 결과는 정밀한 생체 실험 이전에 가설의 타당성을 검증하는 **'물리적 증거(Physical Proof-of-Concept)'**로서 유효하다.
 
 ---
-*Research conducted by [lumencroft]*
+*Research conducted by [Your Github ID]*
 *Date: 2026.01.30*
