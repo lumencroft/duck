@@ -53,6 +53,23 @@
 반면, 하늘을 보는 자세는 **1) 360도 시야를 확보**하면서도, **2) 빗소리 잡음(Noise)을 최소화**하여 다가오는 포식자의 미세한 소리(Signal)를 감지할 수 있게 한다.
 즉, 이 행동은 악천후 속에서도 **SNR(Signal-to-Noise Ratio)을 최대화**하여 생존 확률을 높이려는 **'적극적 방어 기제'**이다.
 
+
+### 5.3. Interspecies Comparative Analysis (종간 비교 분석)
+"왜 오리류(Anatidae)만 이러한 행동을 보이는가?"에 대한 해답은 조류의 부리 형태학(Beak Morphology)과 충격 역학(Impact Mechanics)의 상관관계에서 찾을 수 있다.
+
+#### A. Small Beaks (Ex: Passerines - 참새, 박새 등)
+- **Physics:** 표면적(Surface Area)이 매우 작아 빗방울 충돌 확률(Collision Probability) 자체가 낮다.
+- **Result:** 충격량($F=P \times A$)이 미미하므로, 별도의 행동적 적응(Behavioral Adaptation)이 불필요하다.
+
+#### B. Pointed/Conical Beaks (Ex: Herons, Kingfishers - 왜가리, 물총새 등)
+- **Physics:** 단면이 삼각형(Triangular Prism)이나 원뿔 형태를 띤다.
+- **Result:** 수평 자세에서도 기하학적으로 빗면(Sloped Surface)을 형성하므로, 빗방울이 자연스럽게 빗겨 맞는다(Natural Deflection). 구조적으로 이미 소음 저감 설계가 되어 있다.
+
+#### C. The Duck's Dilemma (Anatidae - 오리)
+- **Physics:** 오리의 부리는 납작하고 넓은 **주걱형(Spatulate)**이다.
+- **Result:** 수평 자세일 때 넓은 평면이 빗방울과 수직으로 충돌하여 **최대 충격 소음(Max Impact Noise)**을 발생시킨다.
+- **Conclusion:** 오리는 이러한 **'형태학적 불리함(Morphological Disadvantage)'**을 극복하기 위해, 고개를 들어 인위적으로 빗면을 만드는 **'행동적 해법'**을 진화시킨 유일한 종이다.
+
 ## 6. Conclusion (결론)
 오리가 비 오는 날 하늘을 보는 것은 단순한 멍때리기가 아니다. 그것은 물리학(입사각 조절)과 생물학(청각 보호 및 경계)이 결합된, 수만 년에 걸쳐 최적화된 고도의 생존 전략이다.
 
