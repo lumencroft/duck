@@ -1,5 +1,16 @@
 # 🦆 Bio-Acoustic Analysis of Duck Head Posture During Rainfall
-(강우 시 오리의 두부 자세에 따른 생체 음향학적 분석 및 생존 전략)
+**(강우 시 오리의 두부 자세에 따른 생체 음향학적 분석 및 생존 전략)**
+
+> **⚠️ WARNING: LEGAL NOTICE**
+>
+> **This content is protected under the [CC BY-NC-SA 4.0] license.**
+> - **Attribution (저작자 표시):** You must credit the original author (**lumencroft**) clearly.
+> - **Non-Commercial (비영리):** Unauthorized commercial use, including **YouTube monetization** or **ad-revenue generation** using this research/data, is strictly prohibited.
+> - **ShareAlike (동일조건 변경허락):** If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+>
+> **(경고: 본 연구 데이터 및 가설의 무단 상업적 이용(유튜브 수익 창출 포함)을 엄격히 금지합니다. 출처 없는 인용 및 표절 발견 시 저작권법에 의거하여 강력히 대응할 수 있습니다.)**
+
+---
 
 ## 1. Abstract (초록)
 비 오는 날 오리들이 하늘을 향해 고개를 드는 행동(Sky-gazing behavior)에 대한 새로운 가설을 검증한다.
@@ -16,7 +27,7 @@
 - **Equipment:**
     - **Phantom Model:** Curved Hard Plastic (Simulating Duck Bills acoustic impedance)
     - **Sensor:** Smartphone with `Phyphox` / `Audio Spectrum Analyzer`
-    - **Source:** Artificial Rain Shower
+    - **Source:** Artificial Rain Shower (Constant Hydrostatic Pressure)
 - **Procedure:**
     1. 센서를 부착한 모형을 바닥에 고정.
     2. 인공 강우(샤워기) 가동 후, 모형의 각도를 **0°(Horizontal), 45°, 75°**로 변경.
@@ -39,7 +50,7 @@
 
 ### 5.2. Signal-to-Noise Ratio (SNR) for Survival (생존을 위한 신호 대 잡음비)
 단순히 소음을 피하려면 고개를 숙이면(Head-down) 된다. 그러나 이는 시야를 차단하여 포식자에 대한 시각적 경계를 불가능하게 한다.
-반면, 하늘을 보는 자세는 **1 360도 시야를 확보**하면서도, **2 빗소리 잡음(Noise)을 최소화**하여 다가오는 포식자의 미세한 소리(Signal)를 감지할 수 있게 한다.
+반면, 하늘을 보는 자세는 **1) 360도 시야를 확보**하면서도, **2) 빗소리 잡음(Noise)을 최소화**하여 다가오는 포식자의 미세한 소리(Signal)를 감지할 수 있게 한다.
 즉, 이 행동은 악천후 속에서도 **SNR(Signal-to-Noise Ratio)을 최대화**하여 생존 확률을 높이려는 **'적극적 방어 기제'**이다.
 
 ## 6. Conclusion (결론)
@@ -57,11 +68,12 @@
 ### 7.2. Phantom Validity (모형의 한계)
 - 사용된 플라스틱 모형은 실제 오리 부리의 **'영률(Youngs Modulus)'**과 **'밀도'**를 완벽하게 모사하지 못했다. 실제 부리는 케라틴 층과 내부 조직으로 이루어져 있어 충격 흡수 양상이 다를 수 있다.
 
-### 6.3. Significance (그럼에도 불구하고)
+### 7.3. Significance (그럼에도 불구하고)
 - 이러한 한계에도 불구하고, 본 실험은 입사각 변화에 따른 **'충격 에너지의 물리적 감소 경향성(Trend of Impact Energy Reduction)'**을 명확히 시각화하였다.
 - 입력되는 충격량(Input Impulse) 자체가 줄어든다면, 결과적으로 전달되는 골전도(Transmitted Vibration) 또한 감소할 것이라는 물리적 추론은 타당하다.
 - 따라서 본 결과는 정밀한 생체 실험 이전에 가설의 타당성을 검증하는 **'물리적 증거(Physical Proof-of-Concept)'**로서 유효하다.
 
 ---
-*Research conducted by [lumencroft]*
-*Date: 2026.01.30*
+**Author:** lumencroft  
+**Date:** 2026.01.30  
+**Repository:** [Link to this GitHub]
